@@ -123,10 +123,9 @@ proxychains -q python main.py
 To install proxychains install `proxychains-ng` and then edit the config file in `/etc/proxychains.conf`.<br>
 It depends on you to use `strict_chain` or `dynamic_chain`. Config it by yourself.
 
-Use docker: 
-```bash
-docker run -e TOKEN="********:**********" --name bot chatgptbot
-```
+> Use docker
+> + `docker build -t chatgptbot .`
+> + `docker run -e TOKEN="********:**********" --name bot chatgptbot`
 <br>
 
 # ▋TOR new IP address
