@@ -124,7 +124,7 @@ To install proxychains install `proxychains-ng` and then edit the config file in
 It depends on you to use `strict_chain` or `dynamic_chain`. Config it by yourself.
 
 # ▋Use docker
-Duild docker image
+Build docker image
 ```bash
 docker build -t chatgptbot .
 ```
