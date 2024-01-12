@@ -23,8 +23,7 @@ from Providers.fakeopen import fakeopen_chat
 
 # Telegram bot's token
 try:
-    with open("token.txt") as token_file:
-        TOKEN: str = token_file.read().strip()
+    TOKEN: str = os.environ['TOKEN']
 except Exception as ex:
     print("Something is wrong with token file! Check it\n\nLog: {ex}")
 
