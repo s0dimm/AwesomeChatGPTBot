@@ -130,7 +130,7 @@ docker build -t chatgptbot .
 ```
 Run docker container
 ```bash
-docker run -e TOKEN="********:**********" --name bot chatgptbot
+docker run -d -e TOKEN="********:**********" --name bot chatgptbot
 ```
 <br>
 
